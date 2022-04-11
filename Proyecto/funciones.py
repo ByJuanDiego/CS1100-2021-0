@@ -1,6 +1,6 @@
 from math import sqrt, pow
 from json import dump, load
-from Proyecto_.variables import *
+from Proyecto.variables import *
 
 
 def main():
