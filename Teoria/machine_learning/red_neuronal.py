@@ -6,16 +6,18 @@ import matplotlib.pyplot as plt
 def plot_data(x, y, x_label, y_label, mark):
     plt.figure(figsize=(10, 8), dpi=100, facecolor='w', edgecolor='k')
     plt.plot(x, y, mark)
-    plt.xlabel = x_label
-    plt.ylabel = y_label
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+    plt.title("Data plot")
     plt.show()
 
 
 def plot_loss(x, x_label, y_label):
     plt.figure(figsize=(10, 8), dpi=100, facecolor='w', edgecolor='k')
     plt.plot(x)
-    plt.xlabel = x_label
-    plt.ylabel = y_label
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+    plt.title("Loss graphic")
     plt.show()
 
 
@@ -36,5 +38,5 @@ ys = xs ** 2
 
 hist = model.fit(xs, ys, epochs=15)
 
-plot_data(xs, ys, 'X', 'Y', 'bo')
-plot_loss(hist.history['loss'], 'epoch', 'loss')
+plot_data(xs, ys, "X", "Y", 'bo')
+plot_loss(hist.history['loss'], "epoch", "loss")
