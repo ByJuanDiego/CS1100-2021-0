@@ -1,0 +1,27 @@
+{"candidato":
+[
+ {"partido":"Acción Popular", "nombre":	"Yonhy Lescano", "votos":[4,10,12,8,9, 15,20,5,0, 25,18,18,19,6,7,4,5,9,0,7,1,1,10,7,6,10,5,5, 2,0,5,9,9,7,1,6,0,10,4]},
+ {"partido":"Alianza para el Progreso", "nombre":	"César Acuña", "votos":[84,55,88,90,85,62,87,95,22,51,95,45,28,95,45,37]},
+ {"partido":"Avanza País", "nombre":	"Hernando De Soto", "votos":[11,41,49,70,60,58,0,95,58,14,31,32,44,31,32,1]},
+ {"partido":"Contigo"	, "nombre":"Máximo San Román", "votos":[13,88,56,50,70,39,31,32,25,95,12,46,73,12,46,13]},
+ {"partido":"Democracia Directa", "nombre":	"Andrés Avelino Alcantara", "votos":[82,95,53,49,33,54,15,56,87,27,97,7,36,97,7,28]},
+ {"partido":"Frente Amplio", "nombre":	"Marco Arana", "votos":[77,47,99,29,69,70,43,54,10,17,27,13,62,27,13,60]},
+ {"partido":"Frente de la Esperanza 2021", "nombre":	"Fernando Olivera", "votos":[80,44,50,80,75,13,78,47,75,84,12,81,54,12,81,69]},
+ {"partido":"Fuerza Popular", "nombre":	"Keiko Fujimori", "votos":[52,99,76,50,90,48,27,42,1,29,31,40,60,31,40,89]},
+ {"partido":"Juntos por el Perú", "nombre":	"Verónika Mendoza", "votos":[3,81,54,76,77,11,38,60,55,39,55,91,9,55,91,46]},
+ {"partido":"Partido Aprista Peruano", "nombre":	"Nidia Vílchez", "votos":[34,29,14,29,20,77,20,33,39,99,98,72,31,98,72,93]},
+ {"partido":"Partido Morado", "nombre":	"Julio Guzmán", "votos":[89,53,34,33,57,89,44,35,31,56,10,48,28,10,48,58]},
+ {"partido":"Partido Nacionalista Peruano", "nombre":	"Ollanta Humala", "votos":[76,31,8,56,61,75,80,95,73,16,61,14,33,61,14,62]},
+ {"partido":"Partido Popular Cristiano", "nombre":	"Alberto Beingolea", "votos":[7,10,6,8,9, 5,0,5,0, 2,5,2,3,5,8,8,9,6,7,4,5,9,0,7,1,0,10,7,6,10,5,5, 2,0,5,9,9,7,1,6,0,10,4]},
+ {"partido":"Perú Libre", "nombre":	"Pedro Castillo", "votos":[25,57,80,6,61,65,28,17,30,98,35,0,43,35,0,56]},
+ {"partido":"Perú Nación"	, "nombre":"Francisco Diez Canseco", "votos":[80,68,45,53,69,100,34,74,5,0,21,58,19,21,58,70]},
+ {"partido":"Perú Patria Segura", "nombre":	"Rafael Santos", "votos":[52,64,13,48,13,16,3,56,44,30,85,36,67,85,36,44]},
+ {"partido":"Podemos Perú", "nombre":	"Daniel Urresti", "votos":[66,14,33,19,46,27,66,78,44,32,39,45,30,39,45,95]},
+ {"partido":"Renovación Popular", "nombre":	"Rafael López Aliaga", "votos":[89,81,20,46,28,86,5,26,71,93,29,38,55,29,38,36]},
+ {"partido":"RUNA", "nombre":	"Ciro Gálvez", "votos":[92,41,82,33,15,66,5,56,10,14,51,82,11,51,82,71]},
+ {"partido":"Restauración Nacional", "nombre":	"George Forsyth", "votos":[66,99,97,99,15,15,90,34,90,45,8,29,9,8,29,44]},
+ {"partido":"Somos Perú", "nombre":	"Daniel Salaverry", "votos":[54,7,81,10,93,8,63,37,36,30,45,84,60,45,84,97]},
+ {"partido":"Todos por el Perú", "nombre":	"Fernando Cillóniz", "votos":[95,10,74,60,80,64,82,74,65,96,62,23,90,62,23,14]},
+ {"partido":"Unión por el Perú", "nombre":	"José Vega", "votos":[83,9,58,97,23,919,96,100,60,79,74,661,164,74,661,39]}
+]
+}
