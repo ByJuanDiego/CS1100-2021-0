@@ -15,22 +15,24 @@ def fibonacci(n):
 def fibonacci2(n):
     cache = [-1] * (n + 1)
 
-    def fibo(n):
+    def fibo(k):
         global count2
         count2 += 1
-        if n == 0 or n == 1:
+        if k == 0:
+            cache[0] = 0
+        elif k == 1:
             cache[0] = 0
             cache[1] = 1
         else:
-            fibo(n - 1)
-            cache[n] = cache[n - 1] + cache[n - 2]
+            fibo(k - 1)
+            cache[k] = cache[k - 1] + cache[k - 2]
 
     fibo(n)
     return cache[n]
 
 
-print("Con recursividad clasico:", fibonacci(30))
-print("Cantidad de llamadas:", count1)
+print(f"Recursion clasica: {fibonacci(30)}")
+print(f"Numero de llamadas: {count1}")
 
-print("Con recursividad PD:", fibonacci2(30))
-print("Cantidad de llamadas:", count2)
+print(f"Recursion dinamica: {fibonacci2(30)}")
+print(f"Numero de llamadas: {count2}")
