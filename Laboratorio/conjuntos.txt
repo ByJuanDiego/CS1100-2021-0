@@ -1,0 +1,89 @@
+# Son mutables naturamlente
+# No puede haber otra coleccion (lista, tupla, conjunto) dentro de un conjunto
+# Los elementos de un conjunto son unicos, solo se pueden guardar una vez
+# conjunto = set
+
+Agregar un elemento a un conjunto:
+    >>> conjunto = {1, 2, 3, 4}
+    >>> conjunto.add(100)
+    >>> print(conjunto)
+    {1, 2, 3, 100, 4}       # El elemento no es añadido siguiendo un orden especifico
+
+Eliminar elementos de un conjunto:
+
+    Eliminar un elemento de un conjunto:
+
+        >>> conjunto = {1, 2, 3, 4}
+        >>> conjunto.discard(4)
+        >>> print(conjunto)
+        {1, 2, 3}
+
+    Eliminar todos los elementos de un conjunto:
+
+        >>> conjunto = {1, 2, 3, 4}
+        >>> conjunto.clear()
+        >>> print(conjunto)
+        {}
+
+Operaciones de conjuntos:
+
+    Union de dos conjuntos:
+
+        >>> conjunto = {1, 2, 3, 4}
+        >>> conjunto_2 = {3, 4, 5, 6}
+        >>> conjunto_3 = conjunto | conjunto_2
+        >>> print(conjunto_3)
+        {1, 2, 3, 4, 5, 6}
+
+    Interseccion de conjuntos:
+
+        >>> conjunto = {1, 2, 3, 4}
+        >>> conjunto_2 = {3, 4, 5, 6}
+        >>> conjunto_3 = conjunto & conjunto_2
+        >>> print(conjunto_3)
+        {3, 4}
+
+    Diferecia de conjuntos:
+
+        >>> conjunto = {1, 2, 3, 4}
+        >>> conjunto_2 = {3, 4, 5, 6}
+        >>> conjunto_3 = conjunto - conjunto_2
+        >>> print(conjunto_3)       # Imprimira los elementos de un conjunto que no se encuentran en el otro
+        >>> conjunto_3 = conjunto2 - conjunto
+        {1, 2}
+        {5, 6}
+
+    Diferencia simetrica de conjuntos:
+
+        >>> conjunto = {1, 2, 3, 4}
+        >>> conjunto_2 = {3, 4, 5, 6}
+        >>> conjunto_3 = conjunto ^ conjunto_2
+        >>> print(conjunto_3)   # Imprimira todos los valores menos los que comparten ambos conjuntos
+        {1, 2, 5, 6}
+
+Funciones con conjuntos:
+
+    Subconjuntos:
+
+        >>> conjunto = {1, 2, 3, 4}
+        >>> conjunto_2 = {1, 2, 3, 4, 5, 6, 7}
+        >>> print(conjunto.issubset(conjunto_2))
+        True
+
+    Superconjuntos:
+
+        >>> conjunto = {1, 2, 3, 4}
+        >>> conjunto_2 = {1, 2, 3, 4, 5, 6, 7}
+        >>> print(conjunto_2.issuperset(conjunto))
+        True
+
+    Conjuntos disconexos:
+
+        >>> conjunto = {1, 2}
+        >>> conjunto_2 = {3, 4}
+        >>> print(conjunto_2.isdisjoint(conjunto))
+        True
+
+Hacer inmutable a un conjunto:
+
+    frozenset({1, 2, 3, 4})

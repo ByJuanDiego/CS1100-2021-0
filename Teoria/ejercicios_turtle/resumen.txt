@@ -1,0 +1,44 @@
+Para manejar la consola:
+
+    La funcion (done) permite que la consola de dibujo no se cierre al terminar de
+    ejecutarse el programa, no tiene parametros:
+
+        done()
+        >>> No dibuja nada, pero no se cierra la consola
+
+Para ir a una posicion:
+
+    La funcion (goto) es usada para ir a un punto especifico del plano,
+    tiene como parametros la coordenada en el eje x y la coordenada en el eje y:
+
+        x = 1
+        goto(x, 0)
+        goto(x, x)
+        goto(0, x)
+        goto(0, 0)
+        >>> Dibuja es un cuadrado, se cierra la consola
+
+    La funcion right (rt) y left (lt) son usadas para dirigir una longitud,
+    tiene como parametro el angulo de inclinacion respecto al eje x de forma antihoraria,
+    el angulo esta en el sistema sexagesimal.
+    La funcion forward (fd) es usada darle una magnitud o tamaño a dicho vector,
+    tiene como unico parametro la longitud del vector:
+
+        x = 1
+        forward(x)
+        left(90)
+        forward(x)
+        left(90)
+        forward(x)
+        left(90)
+        forward(x)
+        >>> Dibuja un cuadrado, se cierra la consola
+
+Para manejar los colores:
+
+    La funcion pencolor es usada para darle el color que queramos, tiene como unico parametro
+    el string del color que queremos darle al lapiz:
+
+        pencolor('blue')
+        forward(100)
+        >>> Dibuja una linea de color azul

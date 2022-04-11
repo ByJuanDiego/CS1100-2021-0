@@ -1,0 +1,53 @@
+Para abrir un archivo:
+
+    >>> x = open("texto.txt", "r") # read
+    >>> x = open("texto.txt", "w") # write
+    >>> x = open("texto.txt", "a") # append
+    >>> x = open("texto.txt", "x") # create
+
+Para cerrar un archivo:
+
+    >>> x = open("texto.txt", "r")
+    >>> x.close()
+
+Para leer el cotenido del archivo:
+
+    Para leer todo el contenido del archivo:
+        El metodo read puede recibir como parametro la cantidad de caracteres que queremos leer
+
+        >>> x = open("texto.txt", "r")
+        >>> contenido = x.read()
+        >>> print(contenido)
+
+    Para leer una linea del archivo:
+
+        >>> x = open("texto.txt", "r")
+        >>> contenido = x.read()
+        >>> for linea in contenido:
+        >>>     print(linea, end="")
+
+        >>> x = open("texto.txt", "r")
+        >>> for linea in x:
+        >>>     print(linea, end="")
+
+Para abrir el archivo con un sobrenombre:
+
+    with open("resumen.txt", "r") as f:
+        print(f)
+
+Para saber si una linea comienza con un string especifico:
+
+    x = open('archivo')
+    for linea in x:
+        if linea.startswith("hola..."):
+        print linea
+
+Para reemplazar el contenido de un archivo por uno escrito:
+
+    f = open("texto.txt", "w")
+    f.write("Hola\n\nqué tal") # Si el archivo tenia algo lo reemplazara
+
+Para seguir escribiendo en un archivo:
+
+    f = open("texto.txt", "a")
+    f.write("Estoy continuando la escritura")

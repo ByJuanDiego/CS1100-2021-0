@@ -1,0 +1,138 @@
+Operaciones:
+
+    Para concatenar cadenas:
+
+        >>> a = "ayuda"
+        >>> b = "me"
+        >>> print(a+b)
+        ayudame
+
+    Para obtener el caracter de una cadena en una posicion:
+
+        >>> a = "Si"
+        >>> print(a[0])
+        S
+
+    Si necesitamos un string distinto, podemos crearlo:
+
+        >>> s = "Hola..."
+        >>> nuevo = "Escuchen: " + s[:4]
+        >>> print(nuevo)
+        Escuchen: Hola
+
+        >>> s = "Hola..."
+        >>> nuevo = s[0:4:2]        # slicing
+        >>> print(nuevo)
+        Hl..
+
+Funciones:
+
+    La funcion len() halla el largo de una cadena y tiene como parametro un string:
+
+        >>> cadena = "si"
+        >>> print(len(cadena))
+        2
+
+    La funcion capitalize() convierte en mayuscula el primer caracter de una cadena:
+
+        >>> cadena = "si soy"
+        >>> print(cadena.capitalize())
+        SI SOY
+
+    La funcion swapcase() intercambia las letras en mayusculas en minusculas y viceversa:
+
+        >>> cadena = "Si sOy"
+        >>> print(cadena.swapcase())
+        sI SoY
+
+    La funcion lower() convierte los caracteres de una cadena en minúscula:
+
+        >>> cadena = "SI"
+        >>> print(cadena.lower())
+        si
+
+    La funcion upper() convierte los caracteres de una cadena en mayúscula:
+
+        >>> cadena = "si"
+        >>> print(cadena.upper())
+        SI
+
+    La funcion startswith() obtiene valores booleanos si una cadena comienza con un string:
+
+        >>> cadena = "Si soy"
+        >>> print(cadena.startswith("S"))   # imprime True si la cadena comienza con el caracter
+        >>> print(cadena.startswith("Si"))  # imprime True si la cadena comienza con el string
+        >>> print(cadena.startswith("s"))   # imprime False si la cadena no comienza con el caracter
+        True
+        True
+        False
+
+    La funcion endswith() obtiene valores booleanos si una cadena termina con un string:
+
+        >>> cadena = "No soy"
+        >>> print(cadena.endswith("y"))   # imprime True si la cadena termina con el caracter
+        >>> print(cadena.endswith("soy"))   # imprime True si la cadena termina con el string
+        >>> print(cadena.endswith("Y"))   # imprime False si la cadena no termina con el caracter
+        True
+        True
+        False
+
+    La funcion strip() elimina los espacios en blanco por izquierda y por derecha
+    Puede recibir como parametro el string al que le quieres aplicar strip():
+
+        >>> cadena = "      Si       "
+        >>> cadena1 = cadena + "soy"
+        >>> print(cadena1)
+        >>> print(cadena.strip() + "soy")
+               Si       soy
+        Sisoy
+
+    La funcion join() devuelve una nueva cadena donde los valores de la primera cadena son reemplazados por
+    el argumento de la funcion, tiene como parametro un string:
+
+        >>> s = "soy un hacker de CS1100"
+        >>> print("-".join(s))
+        s-o-y- -u-n- -h-a-c-k-e-r- -d-e- -C-S-1-1-0-0
+
+    La funcion find() determina si un string está contenido en otro. Devuelve el índice donde comienza el string
+    hallado y devuelve -1 si no halla el string.
+
+        >>> x = ("La vida es mucho mejor con Python").find("Python")
+        >>> print(x)
+        27
+
+    La funcion index() determina si un string está contenido en otro. Devuelve el índice donde comienza el string
+    hallado pero da error si no lo encuentra
+
+        >>> x = ("La vida es mucho mejor con Python").index("Python")
+        >>> print(x)
+        27
+
+    Las funciones isnumeric() e isalpha() retornan booleanos dependiendo si el caracter es un numero o una letra
+
+        >>> x = "a"
+        >>> print(x.isalpha())
+        >>> x = "1"
+        >>> print(x.isnumeric())
+        True
+        True
+
+    La funcion replace() reemplaza el string a buscar por el indicado dentro del string grande, tiene como
+    primer parametro el string a buscar y como segundo el string por el que sera reemplazado:
+
+        >>> x = "Me gusta programar"
+        >>> print(x.replace('programar', 'bikear'))
+        Me gusta bikear
+
+    La funcion split() divide las palabras y las organiza en una lista, tiene como parametro un string
+    que indica en base a que caracter va a dividir las palabras:
+
+        >>> x = "Me gusta programar"
+        >>> print(x.split(" "))            # El parametro por defecto es " ", sin necesidad de ponerlo
+        ['Me', 'gusta', 'programar']
+
+    La funcion list() convierte la cadena en una lista:
+
+        >>> x = "Hola pq"
+        >>> print(list(x))
+        ['H', 'o', 'l', 'a', ' ', 'p', 'q']

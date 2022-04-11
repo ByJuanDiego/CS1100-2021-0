@@ -1,0 +1,25 @@
+Estructuras de control selectiva:
+
+    Selectiva simple:
+
+        if <condicion>:
+            <instrucciones>
+
+    Selectiva doble:
+
+        if <condicion>:
+            <instrucciones>
+        else:
+            <instrucciones(2)>
+
+    Selectiva multiple:
+
+        if <condicion>:
+            <instrucciones>
+        elif <condicion(2)>:
+            <instrucciones(2)>
+        ...
+        elif <condicion(n)>
+            <instrucciones(n)>
+        else:
+            <instrucciones(n+1)>

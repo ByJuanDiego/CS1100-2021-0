@@ -1,0 +1,463 @@
+{
+    "D1": {
+        "Color": "\u222b",
+        "Posicion": [
+            18,
+            9
+        ]
+    },
+    "D2": {
+        "Color": "\u2202",
+        "Posicion": [
+            11,
+            2
+        ]
+    },
+    "D3": {
+        "Color": "\u03c0",
+        "Posicion": [
+            2,
+            3
+        ]
+    },
+    "O1": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            3,
+            4
+        ]
+    },
+    "O10": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            7,
+            6
+        ]
+    },
+    "O11": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            7,
+            12
+        ]
+    },
+    "O12": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            8,
+            5
+        ]
+    },
+    "O13": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            8,
+            9
+        ]
+    },
+    "O14": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            8,
+            12
+        ]
+    },
+    "O15": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            9,
+            14
+        ]
+    },
+    "O16": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            11,
+            7
+        ]
+    },
+    "O17": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            11,
+            8
+        ]
+    },
+    "O18": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            11,
+            11
+        ]
+    },
+    "O19": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            15,
+            7
+        ]
+    },
+    "O2": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            2,
+            9
+        ]
+    },
+    "O20": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            12,
+            4
+        ]
+    },
+    "O21": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            14,
+            8
+        ]
+    },
+    "O22": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            14,
+            11
+        ]
+    },
+    "O23": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            15,
+            6
+        ]
+    },
+    "O24": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            14,
+            10
+        ]
+    },
+    "O25": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            15,
+            14
+        ]
+    },
+    "O26": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            17,
+            9
+        ]
+    },
+    "O27": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            7,
+            5
+        ]
+    },
+    "O28": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            9,
+            9
+        ]
+    },
+    "O29": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            10,
+            8
+        ]
+    },
+    "O3": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            3,
+            12
+        ]
+    },
+    "O30": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            8,
+            10
+        ]
+    },
+    "O31": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            15,
+            11
+        ]
+    },
+    "O32": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            4,
+            3
+        ]
+    },
+    "O33": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            17,
+            8
+        ]
+    },
+    "O34": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            16,
+            9
+        ]
+    },
+    "O35": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            13,
+            7
+        ]
+    },
+    "O36": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            13,
+            8
+        ]
+    },
+    "O37": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            7,
+            13
+        ]
+    },
+    "O38": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            5,
+            8
+        ]
+    },
+    "O39": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            13,
+            4
+        ]
+    },
+    "O4": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            4,
+            4
+        ]
+    },
+    "O40": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            11,
+            10
+        ]
+    },
+    "O41": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            10,
+            11
+        ]
+    },
+    "O42": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            12,
+            5
+        ]
+    },
+    "O43": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            16,
+            6
+        ]
+    },
+    "O44": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            1,
+            9
+        ]
+    },
+    "O45": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            2,
+            10
+        ]
+    },
+    "O46": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            3,
+            11
+        ]
+    },
+    "O47": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            2,
+            12
+        ]
+    },
+    "O48": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            7,
+            2
+        ]
+    },
+    "O49": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            6,
+            3
+        ]
+    },
+    "O5": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            4,
+            7
+        ]
+    },
+    "O50": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            16,
+            14
+        ]
+    },
+    "O51": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            15,
+            15
+        ]
+    },
+    "O52": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            6,
+            14
+        ]
+    },
+    "O53": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            8,
+            14
+        ]
+    },
+    "O54": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            9,
+            15
+        ]
+    },
+    "O55": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            5,
+            13
+        ]
+    },
+    "O6": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            4,
+            8
+        ]
+    },
+    "O7": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            5,
+            10
+        ]
+    },
+    "O8": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            5,
+            14
+        ]
+    },
+    "O9": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            6,
+            2
+        ]
+    }
+}

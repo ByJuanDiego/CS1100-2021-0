@@ -1,0 +1,184 @@
+{
+    "D1": {
+        "Color": "\u0d9e",
+        "Posicion": [
+            1,
+            1
+        ]
+    },
+    "D2": {
+        "Color": "\u00f8",
+        "Posicion": [
+            3,
+            3
+        ]
+    },
+    "O1": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            5,
+            6
+        ]
+    },
+    "O10": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            5,
+            7
+        ]
+    },
+    "O11": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            5,
+            8
+        ]
+    },
+    "O12": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            5,
+            9
+        ]
+    },
+    "O13": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            5,
+            10
+        ]
+    },
+    "O14": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            6,
+            10
+        ]
+    },
+    "O15": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            7,
+            10
+        ]
+    },
+    "O16": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            8,
+            10
+        ]
+    },
+    "O17": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            9,
+            10
+        ]
+    },
+    "O18": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            9,
+            9
+        ]
+    },
+    "O19": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            9,
+            8
+        ]
+    },
+    "O2": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            9,
+            7
+        ]
+    },
+    "O20": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            6,
+            6
+        ]
+    },
+    "O21": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            7,
+            6
+        ]
+    },
+    "O22": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            8,
+            6
+        ]
+    },
+    "O23": {
+        "Altura": 100,
+        "Color": "#",
+        "Posicion": [
+            9,
+            6
+        ]
+    },
+    "O24": {
+        "Altura": 50,
+        "Color": "#",
+        "Posicion": [
+            17,
+            7
+        ]
+    },
+    "O25": {
+        "Altura": 50,
+        "Color": "#",
+        "Posicion": [
+            17,
+            8
+        ]
+    },
+    "O26": {
+        "Altura": 50,
+        "Color": "#",
+        "Posicion": [
+            17,
+            9
+        ]
+    },
+    "O27": {
+        "Altura": 50,
+        "Color": "#",
+        "Posicion": [
+            17,
+            10
+        ]
+    },
+    "O28": {
+        "Altura": 50,
+        "Color": "#",
+        "Posicion": [
+            17,
+            6
+        ]
+    }
+}

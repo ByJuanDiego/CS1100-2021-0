@@ -1,0 +1,272 @@
+# Son mutables
+
+Obtener elementos de una lista:
+
+    Obtener el primer elemento de la lista:
+
+        >>> lista_letras = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k']
+        >>> print(lista_letras[0])
+        a
+
+    Obtener el último elemento de la lista:
+
+        >>> lista_letras = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k']
+        >>> print(lista_letras[-1])
+        k
+
+    Obtener los 5 primeros elementos de la lista:
+
+        >>> lista_letras = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k']
+        >>> print(lista_letras[:5])
+        ['a', 'b', 'c', 'd', 'e']
+
+    Obtener los 5 últimos elementos de la lista:
+
+        >>> lista_letras = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k']
+        >>> print(lista_letras[len(lista_letras)-5: ])
+        ['g', 'h', 'i', 'j','k']
+
+    Obtener los elementos desde la posición 3 a la 7 de la lista:
+
+        >>> lista_letras = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k']
+        >>> print(lista_letras[3:8])
+        ['d', 'e', 'f', 'g', 'h']
+
+Cortar elementos de una lista:
+
+        >>> lista_letras = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k']
+        >>> s = slice(0, 2, 1)
+        >>> print(lista_letras[s])
+        ['a', 'b']
+
+Copiar los elementos de una lista a otra variable:
+
+    >>> lista = [1, 2, 3, 4, 5]
+    >>> lista_copia = lista[:]          # La lista no puede copiarse asignándole a una variable el valor de la lista
+    >>> lista_copia1 = lista.copy()     # Otra forma
+
+Agregar elementos a una lista:
+
+    Agregar elementos al final de una lista:
+
+        >>> lista = [1, 2, 3, 4, 5]
+        >>> lista.append(6)
+        >>> print(lista)
+        [1, 2, 3, 4, 5, 6]
+
+    Agregar elementos a una posición especifica de una lista:
+
+        >>> lista = [1, 2, 3, 4, 5]
+        >>> lista.insert(0, "a")
+        >>> print(lista)
+        ['a', 1, 2, 3, 4, 5]
+
+    Agregar una lista al final de otra:
+
+        >>> lista = [1, 2, 3, 4, 5]
+        >>> lista_2 = [6, 7, 8, 9, 10]
+        >>> lista.extend(lista_2)
+        >>> print(lista)
+        [1, 2, 3, 4, 5, 6, 7, 8 ,9 ,10]
+
+    Suma de listas:
+
+        >>> lista = [1, 2, 3, 4, 5]
+        >>> lista_2 = [6, 7, 8, 9, 10]
+        >>> lista_3 = lista + lista_2       # El orden de la suma si importa
+        >>> print(lista_3)
+        [1, 2, 3, 4, 5, 6, 7, 8 ,9 ,10]
+
+    Agregar un elemento N veces:
+
+        >>> lista = ['x']*3
+        >>> print(lista)
+        ['x', 'x', 'x']
+
+    Agregar elementos iterando:
+
+        >>> lista = ["x" for i in range(3)]
+        >>> print(lista)
+        ['x', 'x', 'x']
+
+        >>> lista = [*range(3)]
+        >>> print(lista)
+        [0, 1, 2]
+
+        >>> lista = [i for i in range(3)]
+        >>> print(lista)
+        [0, 1, 2]
+
+Buscar un elemento en una lista:
+
+    >>> lista_letras = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k']
+    >>> if 'a' in lista_letras:
+    >>>     posicion = lista_letras.index('a')
+    >>>     print(posicion)
+    0
+
+Eliminar un elementos en una lista:
+
+    Eliminar el elemento de una posicion:
+
+        >>> lista_letras = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k']
+        >>> del lista_letras[0]
+        >>> print(lista_letras)
+        ['b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k']
+
+    Eliminar los 2 primeros elementos:
+
+        >>> lista_letras = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k']
+        >>> del lista_letras[:2]
+        >>> print(lista_letras)
+        ['c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k']
+
+    Eliminar los elementos desde la posición 2 hasta el 4
+
+        >>> lista_letras = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k']
+        >>> del lista_letras[2:5]
+        >>>> print(lista_letras)
+        ['a', 'b', 'f', 'g', 'h', 'i', 'j', 'k']
+
+    Eliminar um elemento de la lista por valor:
+
+        Forma 1:
+        >>> lista_letras = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k']
+        >>> if 'a' in lista_letras:
+        >>>     posicion = lista_letras.index('a')
+        >>>     del lista_letras[posicion]
+        >>> print(lista_letras)
+        ['b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k']
+
+        Forma 2:
+        >>> lista_letras = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k']
+        >>> lista_letras.remove('a')
+        >>> print(lista_letras)
+        ['b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k']
+
+    Eliminar todos los elementos de la lista:
+        >>> lista_letras = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k']
+        >>> lista_letras.clear()
+        >>> print(lista_letras)
+        []
+
+Eliminar la lista:
+
+    >>> lista_letras = ['a']
+    >>> del lista_letras
+
+Eliminar y obtener un elemento de una lista:
+
+    Eliminar y obtener el ultimo elemento de una lista:
+
+        >>> lista_letras = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k']
+        >>> elemento = lista_letras.pop(0)        # Eliminara el elemento de la posición pasada como parámetro
+        >>> elemento_2 = lista_letras.pop()       # Si no recibe parámetro eliminara el ultimo elemento de la lista
+        >>> print(lista_letras)
+        >>> print(elemento)
+        >>> print(elemento_2)
+        ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+        a
+        k
+
+Sumar los elementos de una lista:
+
+    Forma 1:
+    >>> lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    >>> suma = 0
+    >>> for num in lista:
+    >>>     suma += num
+    >>> print(suma)
+    55
+
+    Forma 2:
+    >>> lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    >>> suma = sum(lista)
+    >>> print(suma)
+    55
+
+Promedio de los elementos de una lista:
+
+    >>> lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    >>> suma = 0
+    >>> for num in lista:
+    >>>     suma += num
+    >>> promedio = suma/len(lista)
+    >>> print(promedio)
+    5.5
+
+Mayor de los elementos de una lista:
+
+    Forma 1:
+    >>> lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    >>> mayor = lista[0]
+    >>> for num in lista:
+    >>>     if num > mayor
+    >>>     mayor = num
+    >>> print(mayor)
+    10
+
+    Forma 2:
+    >>> lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    >>> mayor = max(lista)
+    >>> print(mayor)
+    10
+
+Menor de los elementos de una lista:
+
+    Forma 1:
+    >>> lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    >>> menor = lista[0]
+    >>> for num in lista:
+    >>>     if num < menor:
+    >>>     menor = num
+    >>> print(menor)
+    1
+
+    Forma 2:
+    >>> lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    >>> menor = min(lista)
+    >>> print(menor)
+    1
+
+Cantidad de veces que se repite el mismo elemento:
+
+    Forma 1:
+    >>> lista_letras = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k']
+    >>> cantidad = 0
+    >>> for letra in lista_letras:
+    >>>    if letra == "e":
+    >>>     cantidad += 1
+    >>> print(cantidad)
+    1
+
+    Forma 2:
+    >>> lista_letras = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k']
+    >>> cantidad = lista_letras.count("e")
+    >>> print(cantidad)
+    1
+
+Cambiar el orden de los elementos de una lista:
+
+    Voltear los elementos de una lista:
+
+        >>> lista_letras = ['a', 'c', 'b']
+        >>> lista_letras.reverse()
+        >>> print(lista_letras)
+        ['b', 'c', 'a']
+
+    Ordenar los elementos de una lista:
+
+        De menor a mayor:
+
+            >> lista = [1, 0, 10, 15, 9, 5]
+            >>> lista.sort()
+            >>> print(lista)
+            [0, 1, 5, 9, 10, 15]
+
+        De mayor a menor:
+
+            >>> lista = [1, 0, 10, 15, 9, 5]
+            >>> lista.sort(reverse=True)
+            >>> print(lista)
+            [15, 10, 9, 5, 1, 0]

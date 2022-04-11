@@ -1,0 +1,133 @@
+Funciones:
+
+    Funcion round():
+
+        La funcion round() recibe como primer parametro un float y como segundo
+        parametro recibe el número de decimales al que queremos truncarlo.
+
+        >>> x = 0.33333333
+        >>> print(round(x, 2))
+        >>> y = 2.5
+        >>> print(round(y))     # Redondea usando el metodo del banquero (al entero par mas cercano)
+        0.33
+        2
+
+    Funcion max():
+
+        La funcion max() recibe como parametros valores numericos y retorna el mayor valor entre ellos.
+
+        >>> print(max(1, 0.5, 10))
+        10
+
+    Funcion min():
+
+        La funcion min() recibe como parametros valores numericos y retorna el menor valor entre ellos.
+
+        >>> print(min(1, 0.5, 10))
+        0.5
+
+Operadores:
+
+    Operadores de asignacion:
+
+        x ahora almacena el mismo valor que y:
+            x = y
+
+    Operadores matematicos:
+
+        Suma:
+            x = x + 1 or x += 1
+        Resta:
+            x = x - 1 or x -= 1
+        Multiplicacion:
+            x = x*2 or x *= 2
+        Division:
+            x = x/2 or x /= 2
+        Division entera:
+            x = x//2 or x //= 2     # El operador // trunca la variable al entero
+        Modulo:
+            x = x % 2 or x %= 2     # El operador % devuelve el residuo de una division
+        Potencia:
+            x = x**2 or x **= 2
+
+    Operadores logicos:
+
+        Es True si ambos son True (and):
+            z = bool(x and y)
+        Es True si al menos uno es True (or):
+            z = bool(x or y)
+        Convierte el True en False y viceversa (not):
+            z = not x
+
+    Operadores de comparacion:
+
+        x es igual a y:
+            x == y
+        x es distinto de y:
+            x!=y
+        x es mayor que y:
+            x>y
+        x es menor que y:
+            x<y
+        x es mayor o igual que y:
+            x>=y
+        x es menor o igual que y:
+            x<=y
+        x es lo mismo que y:
+            x is y
+        x no es lo mismo que y:
+            x is not y
+
+Como imprimir correctamente:
+
+    Formato de impresion:
+
+        Forma 1:
+        Las llaves ({}) representan la variable que queremos imprimir y el format, la forma que le daremos a la variable:
+
+            >>> x = 1/3
+            >>> print("{}".format(round(x, 3)))
+            0.333
+
+            >>> a = 5.2
+            >>> b = 3.1
+            >>> print("El primer numero es {}, y el segundo {}".format(a, b))
+            El primer numero es 5.2, y el segundo 3.1
+
+        Forma 2:
+        La "f" antes del parentesis representa el formato que le daremos y dentro de las llaves ponemos las variables:
+
+            >>> a = 5.33333333
+            >>> b = 4
+            >>> print(f"{a} y {b} son numeros")
+            >>> print(f"{round(a, 2)} y {float(b)} son numeros.")
+            5.33333333 y 4 son numeros
+            5.33 y 4.0 son numeros.
+
+        Forma 3:
+
+            >>> a = 2
+            >>> b = 2.1
+            >>> c = "hola"
+            >>> print("%s, me gusta el %d y el %g"%(c, a, b))   # %s para str, %g para float y %d para int
+            hola, me gusta el 2 y el 2.1
+
+    El (\) es usado para que el programa distinga los caracteres especiales que queremos imprimir:
+
+        >>> cadena = "Una \" en una cadena"
+        >>> print(cadena)
+        Una " en una cadena
+
+    El (\n) es usado para saltar una línea en la cadena que queramos imprimir:
+
+        >>> cadena = "Hola\ncomo\nestas"     # \n es el abreviado de NewLine
+        >>> print(cadena)
+        Hola
+        como
+        estas
+
+    El (end=" ") es usado para que al final de ese print no saltee una linea para el siguiente:
+
+        >>> print("Me gusta ICC", end="")
+        >>> print(", es lo mejor")
+        Me gusta ICC, es lo mejor

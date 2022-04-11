@@ -1,0 +1,69 @@
+Funciones con return:
+
+    Con 1 return:
+
+        >>> def div(a, b):
+        >>>     return a/b
+        >>>
+        >>> x = 5
+        >>> y = 10
+        >>> print(div(x, y))
+        0.5
+
+    Con mas de 1 return:
+
+        >>> def operaciones(a, b):
+        >>>     suma = a + b
+        >>>     resta = a - b
+        >>>     return suma, resta
+        >>>
+        >>> x = 5
+        >>> y = 10
+        >>> z, q = operaciones(x, y):
+        >>> print(z, q)
+        15 -5
+
+Funciones sin return:
+
+    >>> def div(a, b):
+    >>>     print(a/b)
+    >>>
+    >>> x = 5
+    >>> y = 10
+    >>> div(x, y)
+    0.5
+
+Funciones sin parametro:
+
+    >>> def div():
+    >>>     a = int(input("Ingrese dividendo: "))
+    >>>     b = int(input("Ingrese divisor: "))
+    >>>     return a/b
+    >>>
+    >>> print(div())
+    Ingrese dividendo: 5
+    Ingrese divisor: 10
+    0.5
+
+Funciones con variables globales:
+
+    >>> def div():
+    >>>     global x, y
+    >>>     x = int(input("Ingrese dividendo: "))
+    >>>     y = int(input("Ingrese divisor: "))
+    >>>     return x / y
+    >>>
+    >>> x = None
+    >>> y = None
+    >>> print("{}, {}, {}, {}, {}".format(x, y, div(), x, y))
+    Ingrese dividendo: 5
+    Ingrese divisor: 10
+    None, None, 0.5, 5, 10
+
+Funciones con parámetros por defecto:
+
+    >>> def div(a=5, b=10):
+    >>>     return a/b
+    >>>
+    >>> print(div(b=20))    # Se ponen parametros por defecto en caso no se llegue a ingresar alguno
+    0.25

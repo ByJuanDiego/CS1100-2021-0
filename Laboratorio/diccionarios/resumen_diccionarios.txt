@@ -1,0 +1,48 @@
+Actualizar una clave y valor del diccinario:
+
+    >>> d = dict
+    >>> d = {'nombre':'Juan', 'apellido':'Perez', 'edad': 17, 'ciudad':'Callao', 'notas':[20, 20, 20, 20]}
+    >>> d.update({'nombre':'Pedro'})
+    >>> d['ciclo'] = '3'
+
+Acceder al diccionario:
+
+    >>> d = dict
+    >>> d = {'nombre':'Juan', 'apellido':'Perez', 'edad': 17, 'ciudad':'Callao', 'notas':[20, 20, 20, 20]}
+    >>> items = d.items()
+    >>> print(items)
+    dict_items([('nombre', 'Juan'), ('apellido', 'Perez'), ('edad', 17), ('ciudad', 'Callao'), ('notas', [20, 20, 20, 20])])
+
+Acceder a las llaves:
+
+    >>> d = dict
+    >>> d = {'nombre':'Juan', 'apellido':'Perez', 'edad': 17, 'ciudad':'Callao', 'notas':[20, 20, 20, 20]}
+    >>> llaves = d.keys()
+    >>> print(llaves)
+    dict_keys(['nombre', 'apellido', 'edad', 'ciudad', 'notas'])
+
+Acceder a los valores:
+
+    >>> d = dict
+    >>> d = {'nombre':'Juan', 'apellido':'Perez', 'edad': 17, 'ciudad':'Callao', 'notas':[20, 20, 20, 20]}
+    >>> valor = d.get('nombre')
+    >>> print(valor)
+    Juan
+
+    >>> d = dict
+    >>> d = {'nombre':'Juan', 'apellido':'Perez', 'edad': 17, 'ciudad':'Callao', 'notas':[20, 20, 20, 20]}
+    >>> valores = d.values()
+    >>> print(valores)
+    dict_values(['Juan', 'Perez', 17, 'Callao', [20, 20, 20, 20]])
+
+Eliminar todos los elementos del diccionario:
+
+    >>> d = dict
+    >>> d = {'nombre':'Juan', 'apellido':'Perez', 'edad': 17, 'ciudad':'Callao', 'notas':[20, 20, 20, 20]}
+    >>> d.clear()
+
+Eliminar el diccionario:
+
+    >>> d = dict
+    >>> d = {'nombre':'Juan', 'apellido':'Perez', 'edad': 17, 'ciudad':'Callao', 'notas':[20, 20, 20, 20]}
+    >>> del d

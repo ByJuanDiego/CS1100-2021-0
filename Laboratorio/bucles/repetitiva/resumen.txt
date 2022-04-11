@@ -1,0 +1,19 @@
+Estructuras de control repetitivas:
+
+    Bucle while:
+
+        while <condicion>:
+            <instruccion>
+            <instruccion(2)>
+            ...
+            <instruccion(n)>
+
+    Bucle for:
+
+       Para recorrer numeros dentro de un rango:
+            for n in range(LimInf, (LimSup+1), Step):       # siempre ponemos un +1 en el limite superior
+                print(n)
+
+       Para recorrer cadenas:
+            for letra in "cadena":
+                print(letra)

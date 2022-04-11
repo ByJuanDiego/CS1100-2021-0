@@ -1,0 +1,4 @@
+Tiempo: 0 : 0 : 0 => °C: 38
+Tiempo: 0 : 0 : 1 => °C: 82
+Tiempo: 0 : 0 : 2 => °C: 60
+Tiempo: 0 : 0 : 3 => °C: 92
